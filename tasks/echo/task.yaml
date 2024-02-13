@@ -1,0 +1,5 @@
+name: echo
+command: 'echo {{message}}'
+inputs:
+  msg:
+    type: 'string'
