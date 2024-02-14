@@ -1,0 +1,13 @@
+$schema: "1.0"
+name: echo
+command: "echo {{message}} > C://test.txt"
+parameters:
+  message:
+    type: string
+documentation:
+  notes: This task writes a message to a file.
+  examples:
+    - name: echo
+      description: Write the message 'Hello, world!' to a file.
+      parameters:
+        message: Hello, world!
