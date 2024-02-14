@@ -1,13 +1,13 @@
 $schema: "1.0"
-name: "echo"
+name: echo
 command: "echo {{message}} > C://test.txt"
 parameters:
   message:
-    type: "string"
+    type: string
 documentation:
-  description: "This task writes a message to a file."
+  notes: This task writes a message to a file.
   examples:
-    - name: "echo"
-      description: "Write the message 'Hello, world!' to a file."
+    - name: echo
+      description: Write the message 'Hello, world!' to a file.
       parameters:
-        message: "Hello, world!"
+        message: Hello, world!
