@@ -4,3 +4,10 @@ command: "echo {{message}} > C://test.txt"
 parameters:
   message:
     type: "string"
+documentation:
+  description: "This task writes a message to a file."
+  examples:
+    - name: "echo"
+      description: "Write the message 'Hello, world!' to a file."
+      parameters:
+        message: "Hello, world!"
