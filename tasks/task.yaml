@@ -1,0 +1,6 @@
+$schema: "1.0"
+name: "echo"
+command: "echo {{message}} > C://test.txt"
+parameters:
+  message:
+    type: "string"
